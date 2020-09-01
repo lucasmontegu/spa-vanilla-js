@@ -69,6 +69,14 @@ body {
   margin: 20px;
 }
 
+.Characters-card h3 ul {
+  max-height: 150px;
+  overflow-y: scroll;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  list-style: none;
+  padding: 15px;
+}
+
 .Characters-item {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
