@@ -1,18 +1,19 @@
 const Header = () => {
-    const view = `
+  const view = `
         <div class="Header-main">
             <div class="Header-logo">
-                <h1>
-                    <a href="/"></a>
-                    100tifi.co
-                </h1>
+                <a href="#/">
+                    <h1>
+                        100tifi.co
+                    </h1>
+                </a>
             </div>
             <div class="Header-nav">
-                <a href="#/about/"></a>
+                <a href="#/about/">About</a>
             </div>
         </div>
     `;
-    return view;
-}
+  return view;
+};
 
 export default Header;
